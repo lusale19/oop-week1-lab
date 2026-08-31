@@ -9,6 +9,7 @@ public class Main {
     jacobsAccount.balance = 100;
     System.out.println("Before deposit: " + jacobsAccount.balance);
     jacobsAccount.deposit(100);
-    System.out.println("After deposit: " + jacobsAccount.balance);  System.out.println(useAccount.balance);
+    System.out.println("After deposit: " + jacobsAccount.balance);
+    System.out.println(useAccount.balance);
 }
 }
